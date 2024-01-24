@@ -6,7 +6,7 @@ public class Main {
         Scanner Count = new Scanner(System.in);
         double x  = Count.nextDouble();
         System.out.println("Введите ограничение: ");
-        double f  = Count.nextByte();//
+        double f  = Count.nextDouble();//
         double sum = 0;
         if (x < 1 && x >= -1)
         {
